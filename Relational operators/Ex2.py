@@ -1,0 +1,13 @@
+#program on relational operator  str compare
+a= input("Enter the first number: ")
+b= input("Enter the second number: ")
+print("-"*57)
+print("\tRelational operator Results are")
+print("-"*57)
+print("\t\t{} > {} : {}".format(a,b,a>b))
+print("\t\t{} < {} : {}".format(a,b,a<b))
+print("\t\t{} == {} : {}".format(a,b,a==b))
+print("\t\t{} != {} : {}".format(a,b,a!=b))
+print("\t\t{} >= {} : {}".format(a,b,a>=b))
+print("\t\t{} <= {} : {}".format(a,b,a<=b))
+print("-"*57)
