@@ -1,0 +1,17 @@
+#Program to print N to 1 Natural numbers by using For..else loop
+#Ex-2
+n=int(input("Enter a Number to Print that many Natural numbers in Reverse order: "))
+if(n<=0):
+    print("*" * 50)
+    print("Entered Number is invalid --try again")
+    print("*" * 50)
+else:
+    print("*"*50)
+    print("The Natural Numbers from {} TO 1 are below".format(n))
+    print("*"*50)
+    for n in range(n,0,-1):
+        print("\t{}".format(n))
+    else:
+        print("*"*50)
+print("Program Execution Is Completed  \n\t\t\t\t\t--Thankyou For Using This Program")
+print("*"*50)
