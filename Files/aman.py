@@ -1,0 +1,1 @@
+print("Welcome aman to files in python")
